@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8324D5A21D3324E40083238A /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8324D5A11D3324E40083238A /* RestaurantTableViewCell.swift */; };
+		8324D5A41D332AA70083238A /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8324D5A31D332AA70083238A /* RestaurantTableViewController.swift */; };
+		8324D5A61D332C540083238A /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8324D5A51D332C540083238A /* Restaurant.swift */; };
 		83AEB1981D2AC9C70064CA23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AEB1971D2AC9C70064CA23 /* AppDelegate.swift */; };
 		83AEB19A1D2AC9C70064CA23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AEB1991D2AC9C70064CA23 /* ViewController.swift */; };
 		83AEB19D1D2AC9C70064CA23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83AEB19B1D2AC9C70064CA23 /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8324D5A11D3324E40083238A /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
+		8324D5A31D332AA70083238A /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
+		8324D5A51D332C540083238A /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		83AEB1941D2AC9C70064CA23 /* HealthyOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthyOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83AEB1971D2AC9C70064CA23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83AEB1991D2AC9C70064CA23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +103,9 @@
 		83AEB1961D2AC9C70064CA23 /* HealthyOut */ = {
 			isa = PBXGroup;
 			children = (
+				8324D5A11D3324E40083238A /* RestaurantTableViewCell.swift */,
+				8324D5A31D332AA70083238A /* RestaurantTableViewController.swift */,
+				8324D5A51D332C540083238A /* Restaurant.swift */,
 				83AEB1971D2AC9C70064CA23 /* AppDelegate.swift */,
 				83AEB1991D2AC9C70064CA23 /* ViewController.swift */,
 				83AEB19B1D2AC9C70064CA23 /* Main.storyboard */,
@@ -256,7 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8324D5A61D332C540083238A /* Restaurant.swift in Sources */,
 				83AEB19A1D2AC9C70064CA23 /* ViewController.swift in Sources */,
+				8324D5A21D3324E40083238A /* RestaurantTableViewCell.swift in Sources */,
+				8324D5A41D332AA70083238A /* RestaurantTableViewController.swift in Sources */,
 				83AEB1981D2AC9C70064CA23 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,6 +412,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HealthyOut/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wholeapps.HealthyOut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +424,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HealthyOut/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wholeapps.HealthyOut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -482,6 +496,7 @@
 				83AEB1BE1D2AC9C80064CA23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83AEB1BF1D2AC9C80064CA23 /* Build configuration list for PBXNativeTarget "HealthyOutTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +505,7 @@
 				83AEB1C11D2AC9C80064CA23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83AEB1C21D2AC9C80064CA23 /* Build configuration list for PBXNativeTarget "HealthyOutUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +514,7 @@
 				83AEB1C41D2AC9C80064CA23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
